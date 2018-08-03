@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather map</title>
+<link rel="stylesheet" type="text/css" href="Resources/bootstrap.min.js">
+</head>
+<body ng-app="myapp" ng-controller="myctrl">
+
+<input type="text" ng-model="pin">
+<button ng-click="data(pin)"></button>
+
+{{report}}
+
+
+<script type="text/javascript" src="Resources/angular.min.js"></script>
+<script type="text/javascript" src="Controller/maincontroller.js"></script>
+</body>
+</html>
